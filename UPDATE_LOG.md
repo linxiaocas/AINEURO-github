@@ -146,4 +146,41 @@ English content...
 
 ---
 
+## 2026-02-19: Comprehensive Supplementary Materials Added / 综合补充材料添加
+
+### New Supplementary Materials / 新增补充材料
+
+**For Textbook / 教科书**:
+- **Chapter 1 Supplementary**: Historical timeline, case studies, visualizations
+  - Historical evolution of AI Neuroscience (1940s-2024)
+  - Interactive concept maps of three pillars
+  - Ethical framework case studies
+  - Practical exercises with solutions
+
+- **Chapter 4 Supplementary**: Processor architectures in detail
+  - Cortex-M0 as minimal neural unit
+  - SIMD vs neural population coding
+  - Multi-core cache coherence from neural perspective
+  - "Neural processor" implementation exercise
+
+**For Papers / 论文**:
+- **Paper 1 Supplementary**: CortexNet detailed documentation
+  - Complete architecture diagrams
+  - Biological accuracy comparison tables
+  - Mathematical formulations (Gabor filters, divisive normalization)
+  - PyTorch implementation code
+  - Performance benchmarks
+
+### Content Enhancement / 内容增强
+
+| Type / 类型 | Details / 详情 |
+|------------|---------------|
+| ASCII Diagrams / ASCII图表 | 50+ visualizations / 50+可视化 |
+| Code Examples / 代码示例 | Python implementations / Python实现 |
+| Comparison Tables / 比较表 | Bio-digital mappings / 生物-数字映射 |
+| Case Studies / 案例研究 | Ethics, healthcare applications / 伦理、医疗应用 |
+| Exercises / 练习 | With detailed solutions / 带详细解答 |
+
+---
+
 **Last Updated / 最后更新**: 2026-02-19
