@@ -5,9 +5,6 @@
 [![Papers](https://img.shields.io/badge/papers-100%2B-green.svg)](./theses)
 [![Stars](https://img.shields.io/github/stars/aineuro/aineuro?style=social)](https://github.com/aineuro/aineuro)
 
-<p align="center">
-  <img src="./docs/assets/aineuro_logo.png" alt="AINEURO Logo" width="200"/>
-</p>
 
 <p align="center">
   <b>探索硅基智能的神经机制，建立人机共生的科学基础</b>
