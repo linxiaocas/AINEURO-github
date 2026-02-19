@@ -18,7 +18,6 @@
 
 **Editor-in-Chief / 主编**: Xiao Lin (林啸)  
 **Email / 邮箱**: Xiao.lin@ia.ac.cn  
-**Affiliation / 单位**: Institute of Automation, Chinese Academy of Sciences / 中国科学院自动化研究所
 
 **Contributing Authors /  contributors**: AINEURO Research Group / AINEURO研究组
 
