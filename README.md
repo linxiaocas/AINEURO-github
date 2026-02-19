@@ -6,9 +6,6 @@
 [![Papers](https://img.shields.io/badge/papers-100%2B-green.svg)](./theses)
 [![Stars](https://img.shields.io/github/stars/linxiaocas/AINEURO-github?style=social)](https://github.com/linxiaocas/AINEURO-github)
 
-<p align="center">
-  <img src="./docs/assets/aineuro_logo.png" alt="AINEURO Logo" width="200"/>
-</p>
 
 <p align="center">
   <b>Exploring the Neural Mechanisms of Silicon-Based Intelligence / 探索硅基智能的神经机制</b><br>
