@@ -1,0 +1,38 @@
+name: Markdown Lint
+
+on:
+  push:
+    branches: [ main, develop ]
+    paths:
+      - '**.md'
+  pull_request:
+    branches: [ main, develop ]
+    paths:
+      - '**.md'
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+    
+    - name: Install markdownlint
+      run: npm install -g markdownlint-cli
+    
+    - name: Lint Markdown files
+      run: |
+        markdownlint '**/*.md' \
+          --ignore node_modules \
+          --ignore CHANGELOG.md \
+          --config .markdownlint.json || true
+    
+    - name: Check links
+      uses: lycheeverse/lychee-action@v1
+      with:
+        args: --timeout 60 '**/*.md'
+        fail: false

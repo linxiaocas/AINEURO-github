@@ -1,0 +1,34 @@
+name: Welcome Contributors
+
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: |
+          👋 欢迎使用 AINEURO！
+          
+          感谢您提出问题。我们会尽快审核并回复。
+          
+          如果您要提议新论文，请使用 "Paper Proposal" 模板。
+          
+          如有疑问，请查看我们的[贡献指南](./CONTRIBUTING.md)。
+        pr-message: |
+          🎉 感谢您提交 Pull Request！
+          
+          我们非常感谢您的贡献。维护者会尽快审核您的PR。
+          
+          在等待审核期间，请确保：
+          - ✅ 所有检查都已通过
+          - ✅ 文档已更新（如需要）
+          - ✅ 遵循了我们的代码/论文规范
+          
+          如有疑问，请随时在PR中评论。

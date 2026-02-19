@@ -1,0 +1,52 @@
+name: Bug Report
+description: 报告理论框架或文档中的问题
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您花时间报告问题！
+        
+  - type: input
+    id: location
+    attributes:
+      label: 问题位置
+      description: 请指出问题所在的文件和位置
+      placeholder: "例如：docs/完整学科框架_详细版.md 第3.2节"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 请清晰描述您发现的问题
+      placeholder: "描述问题..."
+    validations:
+      required: true
+      
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期内容
+      description: 您认为正确的内容应该是什么？
+      placeholder: "描述预期的正确内容..."
+      
+  - type: textarea
+    id: references
+    attributes:
+      label: 参考资料
+      description: 如果有相关的学术文献或引用，请提供
+      placeholder: "引用文献、链接等..."
+      
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 确认
+      description: 在提交之前，请确认以下事项
+      options:
+        - label: 我已经搜索过现有的issues，确认这个问题没有被报告过
+          required: true
+        - label: 我提供了足够的信息来理解和复现这个问题
+          required: true

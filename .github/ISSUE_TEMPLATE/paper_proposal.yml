@@ -1,0 +1,82 @@
+name: Paper Proposal
+description: 提议撰写新的学术论文
+title: "[Paper Proposal]: "
+labels: ["paper", "proposal"]
+body:
+  - type: input
+    id: paper_number
+    attributes:
+      label: 论文编号
+      description: 从100篇论文目录中选择的编号
+      placeholder: "例如：论文15"
+    validations:
+      required: true
+      
+  - type: input
+    id: title
+    attributes:
+      label: 论文标题
+      description: 拟撰写的论文标题
+      placeholder: "论文标题"
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: direction
+    attributes:
+      label: 研究方向
+      description: 选择论文所属的研究方向
+      options:
+        - 01 计算神经架构
+        - 02 AI认知科学
+        - 03 神经可塑性AI
+        - 04 脑机接口AI
+        - 05 AI神经病理学
+        - 06 进化神经AI
+        - 07 多模态神经AI
+        - 08 AI神经伦理学
+        - 09 神经信号处理AI
+        - 10 量子神经AI
+    validations:
+      required: true
+      
+  - type: textarea
+    id: abstract
+    attributes:
+      label: 论文摘要
+      description: 简要描述论文的研究内容、方法和预期贡献
+      placeholder: "200-300字的论文摘要..."
+    validations:
+      required: true
+      
+  - type: textarea
+    id: outline
+    attributes:
+      label: 论文大纲
+      description: 列出论文的主要章节结构
+      placeholder: |
+        1. 引言
+        2. 理论框架
+        3. 方法
+        4. 实验
+        5. 讨论
+        6. 结论
+      
+  - type: input
+    id: timeline
+    attributes:
+      label: 预计完成时间
+      description: 您预计何时完成初稿？
+      placeholder: "例如：2024年6月"
+      
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 确认
+      options:
+        - label: 我已经阅读了贡献指南
+          required: true
+        - label: 我理解并接受论文将使用CC BY 4.0许可证开源
+          required: true
+        - label: 这篇论文尚未被其他人认领
+          required: true

@@ -1,0 +1,115 @@
+# 编译输出
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+*.pyo
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# IDE和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Python环境
+venv/
+env/
+ENV/
+.venv
+
+# 依赖管理
+node_modules/
+package-lock.json
+yarn.lock
+
+# 日志文件
+*.log
+logs/
+log/
+
+# 测试和覆盖率
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+htmlcov/
+
+# 文档构建
+docs/_build/
+docs/api/
+site/
+
+# 数据和模型（大文件）
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.pth
+*.pt
+*.ckpt
+*.weights
+models/
+data/raw/
+data/processed/
+checkpoints/
+
+# 结果和输出
+results/
+outputs/
+experiments/
+wandb/
+
+# 敏感信息
+.env
+.env.local
+.env.*.local
+*.secret
+*.key
+config.local.yml
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# 操作系统文件
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+
+# 论文特定（保留源文件，忽略构建产物）
+papers/*/build/
+papers/*/output/
+
+# 但不忽略这些
+!docs/assets/
+!docs/images/
+!docs/figures/
