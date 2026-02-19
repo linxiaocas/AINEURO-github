@@ -95,4 +95,25 @@ English content...
 
 ---
 
+## 2026-02-19: Comprehensive Textbook Added / 综合教科书添加
+
+### New Textbook / 新教科书
+
+**Title / 书名**: AI Neuroscience: From Silicon to Consciousness / 人工智能神经科学：从硅基到意识
+
+**Chapters Completed / 已完成章节**:
+- **Chapter 1**: Introduction to AI Neuroscience / AI神经科学导论 (~15,000 words)
+- **Chapter 2**: Biological Neural Systems / 生物神经系统 (~19,000 words)
+- **Chapter 3**: Computational Foundations / 计算基础 (~19,000 words)
+
+**Features / 特点**:
+- Full bilingual format (English primary, Chinese secondary) / 全文双语格式（英文为主，中文为辅）
+- Complete pedagogical design with exercises / 完整教学设计，包含练习
+- 18 chapters planned covering all AINEURO topics / 计划18章，涵盖所有AINEURO主题
+- Learning objectives, summaries, and references / 学习目标、总结和参考文献
+
+**Total Textbook Content / 教科书总内容**: ~52,000+ words
+
+---
+
 **Last Updated / 最后更新**: 2026-02-19
