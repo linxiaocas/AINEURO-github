@@ -1,9 +1,6 @@
 # IEEE Transactions on Silicon-Based Intelligence (IEEE TSBI)
 # IEEE 硅基智能汇刊
 
-<p align="center">
-  <img src="./assets/ieee-tsbi-logo.png" width="250" alt="IEEE TSBI Logo">
-</p>
 
 <p align="center">
   <b>A Publication of the IEEE Computer Society and IEEE Neural Networks Society</b><br>
@@ -186,26 +183,14 @@ IEEE TSBI publishes archival-quality research on:
 
 **Prof. Lin Xiao (S'15-M'20-SM'25)**
 - AINEURO Institute, Beijing
-- lxiao@ieee-tsbi.org
+- xiao.lin@ia.ac.cn
 
 ### Associate Editors-in-Chief / 副主编
 
-- **Prof. David Patterson** - UC Berkeley
-- **Prof. 陈云霁 (Chen Yunji)** - Chinese Academy of Sciences
-- **Dr. Bill Dally** - NVIDIA & Stanford
+
 
 ### Area Editors / 领域编辑
 
-| Area | Editor |
-|------|--------|
-| AI Hardware / AI硬件 | Prof. Krishna Palem, Rice University |
-| Neuromorphic Systems / 神经形态系统 | Prof. Giacomo Indiveri, University of Zurich |
-| AI Reliability / AI可靠性 | Prof. 张悠慧 (Zhang Youhui), Tsinghua University |
-| Standards / 标准化 | Dr. Terrence Openheim, IEEE-SA |
-| Safety & Ethics / 安全与伦理 | Prof. Stuart Russell, UC Berkeley |
-| Energy Efficiency / 能效 | Prof. Vivienne Sze, MIT |
-
-[👥 Full Editorial Board / 完整编委会 →](./EDITORIAL_BOARD.md)
 
 ---
 
@@ -230,9 +215,8 @@ IEEE TSBI works closely with IEEE Standards Association to develop standards for
 
 ## 📮 Contact / 联系
 
-- **Editorial Office**: editorial@ieee-tsbi.org
-- **Standards Inquiries**: standards@ieee-tsbi.org
-- **Submission System**: https://tsbi.manuscriptcentral.com
+- **Editorial Office**: xiao.lin@ia.ac.cn
+- **Standards Inquiries**: xiao.lin@ia.ac.cn
 
 ---
 
