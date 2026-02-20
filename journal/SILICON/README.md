@@ -1,8 +1,5 @@
 # SILICON Journal / 《SILICON》期刊
 
-<p align="center">
-  <img src="./assets/silicon-logo.png" width="300" alt="SILICON Journal">
-</p>
 
 <p align="center">
   <b>The Weekly Journal of AI Neuroscience & Silicon-Based Intelligence</b><br>
