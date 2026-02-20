@@ -1,7 +1,8 @@
 # IEEE Transactions on Silicon-Based Intelligence (IEEE TSBI)
 # IEEE 硅基智能汇刊
-
-
+<p align="center">
+  <img src="./assets/ieee-tsbi-logo.svg" width="200" alt="IEEE TSBI Journal Logo">
+</p>
 <p align="center">
   <b>A Publication of the IEEE Computer Society and IEEE Neural Networks Society</b><br>
   <b>IEEE计算机学会与IEEE神经网络学会联合出版</b>
