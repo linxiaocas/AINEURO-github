@@ -141,19 +141,12 @@ AINEURO Institute, Beijing / AINEURO研究院，北京
 
 ### Senior Editors / 资深编辑
 
-- **Dr. Yann LeCun** - Meta AI & NYU
-- **李飞飞教授 (Prof. Fei-Fei Li)** - Stanford University
-- **Prof. Yoshua Bengio** - Mila, University of Montreal
-- **张钹院士 (Academician Bo Zhang)** - Tsinghua University
+
 
 ### Associate Editors / 副编辑
 
-- Dr. Demis Hassabis - DeepMind
-- 周志华教授 (Prof. Zhihua Zhou) - Nanjing University
-- Dr. Dario Amodei - Anthropic
-- 何恺明博士 (Dr. Kaiming He) - MIT
 
-[👥 Full Editorial Board / 完整编委会 →](./EDITORIAL_BOARD.md)
+
 
 ---
 
