@@ -1,0 +1,56 @@
+<!-- SILICON Journal Logo -->
+<svg width="400" height="150" viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient for SILICON text -->
+    <linearGradient id="siliconGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7b2cbf;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff006e;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Glow filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background circle representing consciousness/orb -->
+  <circle cx="75" cy="75" r="50" fill="none" stroke="url(#siliconGradient)" stroke-width="2" opacity="0.6"/>
+  <circle cx="75" cy="75" r="35" fill="none" stroke="#00d4ff" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="75" cy="75" r="20" fill="#00d4ff" opacity="0.15"/>
+  
+  <!-- Neural network nodes inside circle -->
+  <circle cx="55" cy="60" r="3" fill="#00d4ff" opacity="0.8"/>
+  <circle cx="75" cy="50" r="3" fill="#7b2cbf" opacity="0.8"/>
+  <circle cx="95" cy="60" r="3" fill="#00d4ff" opacity="0.8"/>
+  <circle cx="55" cy="90" r="3" fill="#7b2cbf" opacity="0.8"/>
+  <circle cx="75" cy="100" r="3" fill="#ff006e" opacity="0.8"/>
+  <circle cx="95" cy="90" r="3" fill="#7b2cbf" opacity="0.8"/>
+  
+  <!-- Neural connections -->
+  <line x1="55" y1="60" x2="75" y2="50" stroke="#00d4ff" stroke-width="1" opacity="0.5"/>
+  <line x1="75" y1="50" x2="95" y2="60" stroke="#7b2cbf" stroke-width="1" opacity="0.5"/>
+  <line x1="55" y1="60" x2="55" y2="90" stroke="#7b2cbf" stroke-width="1" opacity="0.5"/>
+  <line x1="95" y1="60" x2="95" y2="90" stroke="#00d4ff" stroke-width="1" opacity="0.5"/>
+  <line x1="55" y1="90" x2="75" y2="100" stroke="#ff006e" stroke-width="1" opacity="0.5"/>
+  <line x1="75" y1="100" x2="95" y2="90" stroke="#7b2cbf" stroke-width="1" opacity="0.5"/>
+  <line x1="55" y1="60" x2="95" y2="90" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <line x1="95" y1="60" x2="55" y2="90" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  
+  <!-- SILICON text -->
+  <text x="140" y="65" font-family="Arial Black, sans-serif" font-size="42" font-weight="bold" fill="url(#siliconGradient)" filter="url(#glow)">SILICON</text>
+  
+  <!-- Subtitle -->
+  <text x="140" y="85" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#888888">Journal of AI Neuroscience</text>
+  <text x="140" y="98" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#888888">&amp; Silicon-Based Intelligence</text>
+  
+  <!-- Chinese subtitle -->
+  <text x="140" y="115" font-family="SimHei, sans-serif" font-size="10" fill="#666666">AI神经科学与硅基智能周刊</text>
+  
+  <!-- Small decorative line -->
+  <line x1="140" y1="125" x2="360" y2="125" stroke="url(#siliconGradient)" stroke-width="1" opacity="0.5"/>
+</svg>
