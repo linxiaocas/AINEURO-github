@@ -21,6 +21,13 @@ The papers in this issue address critical challenges in silicon-based system arc
 
 ---
 
+<!-- Cover Image -->
+<p align="center">
+  <img src="./cover.svg" width="500" alt="IEEE TSBI Cover - Volume 1 Number 1">
+</p>
+
+---
+
 ## Table of Contents / 目录
 
 ### Editorial / 社论

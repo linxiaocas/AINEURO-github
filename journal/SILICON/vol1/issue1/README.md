@@ -3,6 +3,11 @@
 ## The Weekly Journal of AI Neuroscience & Silicon-Based Intelligence
 ## AI神经科学与硅基智能周刊
 
+<!-- Cover Image -->
+<p align="center">
+  <img src="./cover.svg" width="500" alt="SILICON Journal Cover - Volume 1 Issue 1">
+</p>
+
 <p align="center">
   <img src="./assets/silicon-logo.svg" width="200" alt="SILICON Journal Logo">
 </p>
