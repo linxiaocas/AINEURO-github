@@ -7,6 +7,9 @@
 </p>
 
 <p align="center">
+  <img src="./assets/silicon-logo.svg" width="200" alt="SILICON Journal Logo">
+</p>
+<p align="center">
   <a href="https://github.com/linxiaocas/AINEURO-github/tree/main/journal/SILICON">Home</a> •
   <a href="./vol1/issue1">Current Issue</a> •
   <a href="#archives">Archives</a> •
