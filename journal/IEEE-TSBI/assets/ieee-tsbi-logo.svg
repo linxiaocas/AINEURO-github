@@ -1,0 +1,65 @@
+<!-- IEEE TSBI Logo -->
+<svg width="450" height="120" viewBox="0 0 450 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- IEEE Blue -->
+    <color id="ieeeBlue" value="#00629B"/>
+  </defs>
+  
+  <!-- Background shape - stylized chip/processor -->
+  <rect x="10" y="25" width="80" height="70" rx="3" fill="none" stroke="#00629B" stroke-width="2.5"/>
+  
+  <!-- Chip pins (top) -->
+  <line x1="20" y1="25" x2="20" y2="15" stroke="#00629B" stroke-width="2"/>
+  <line x1="35" y1="25" x2="35" y2="15" stroke="#00629B" stroke-width="2"/>
+  <line x1="50" y1="25" x2="50" y2="15" stroke="#00629B" stroke-width="2"/>
+  <line x1="65" y1="25" x2="65" y2="15" stroke="#00629B" stroke-width="2"/>
+  <line x1="80" y1="25" x2="80" y2="15" stroke="#00629B" stroke-width="2"/>
+  
+  <!-- Chip pins (bottom) -->
+  <line x1="20" y1="95" x2="20" y2="105" stroke="#00629B" stroke-width="2"/>
+  <line x1="35" y1="95" x2="35" y2="105" stroke="#00629B" stroke-width="2"/>
+  <line x1="50" y1="95" x2="50" y2="105" stroke="#00629B" stroke-width="2"/>
+  <line x1="65" y1="95" x2="65" y2="105" stroke="#00629B" stroke-width="2"/>
+  <line x1="80" y1="95" x2="80" y2="105" stroke="#00629B" stroke-width="2"/>
+  
+  <!-- Chip pins (left) -->
+  <line x1="10" y1="35" x2="0" y2="35" stroke="#00629B" stroke-width="2"/>
+  <line x1="10" y1="50" x2="0" y2="50" stroke="#00629B" stroke-width="2"/>
+  <line x1="10" y1="65" x2="0" y2="65" stroke="#00629B" stroke-width="2"/>
+  <line x1="10" y1="80" x2="0" y2="80" stroke="#00629B" stroke-width="2"/>
+  
+  <!-- Chip pins (right) -->
+  <line x1="90" y1="35" x2="100" y2="35" stroke="#00629B" stroke-width="2"/>
+  <line x1="90" y1="50" x2="100" y2="50" stroke="#00629B" stroke-width="2"/>
+  <line x1="90" y1="65" x2="100" y2="65" stroke="#00629B" stroke-width="2"/>
+  <line x1="90" y1="80" x2="100" y2="80" stroke="#00629B" stroke-width="2"/>
+  
+  <!-- Inner chip core -->
+  <rect x="25" y="40" width="50" height="40" rx="2" fill="none" stroke="#00629B" stroke-width="1.5" opacity="0.7"/>
+  
+  <!-- Circuit pattern inside -->
+  <line x1="35" y1="50" x2="45" y2="50" stroke="#00629B" stroke-width="1" opacity="0.5"/>
+  <line x1="45" y1="50" x2="45" y2="60" stroke="#00629B" stroke-width="1" opacity="0.5"/>
+  <line x1="45" y1="60" x2="55" y2="60" stroke="#00629B" stroke-width="1" opacity="0.5"/>
+  <line x1="55" y1="60" x2="55" y2="70" stroke="#00629B" stroke-width="1" opacity="0.5"/>
+  <line x1="55" y1="70" x2="65" y2="70" stroke="#00629B" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Small nodes -->
+  <circle cx="45" cy="50" r="2" fill="#00629B" opacity="0.6"/>
+  <circle cx="45" cy="60" r="2" fill="#00629B" opacity="0.6"/>
+  <circle cx="55" cy="60" r="2" fill="#00629B" opacity="0.6"/>
+  <circle cx="55" cy="70" r="2" fill="#00629B" opacity="0.6"/>
+  
+  <!-- IEEE text -->
+  <text x="115" y="45" font-family="Arial Black, sans-serif" font-size="16" font-weight="bold" fill="#00629B">IEEE</text>
+  
+  <!-- Main title -->
+  <text x="115" y="72" font-family="Times New Roman, serif" font-size="20" font-weight="bold" fill="#00629B">Transactions on</text>
+  <text x="115" y="95" font-family="Times New Roman, serif" font-size="20" font-weight="bold" fill="#00629B">Silicon-Based Intelligence</text>
+  
+  <!-- Chinese title -->
+  <text x="115" y="112" font-family="SimHei, sans-serif" font-size="12" fill="#666666">IEEE 硅基智能汇刊</text>
+  
+  <!-- Decorative line -->
+  <line x1="115" y1="52" x2="430" y2="52" stroke="#00629B" stroke-width="1" opacity="0.3"/>
+</svg>
