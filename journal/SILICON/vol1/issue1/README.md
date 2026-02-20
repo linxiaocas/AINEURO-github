@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/silicon-logo.svg" width="200" alt="SILICON Journal Logo">
+  <img src="../../assets/silicon-logo.svg" width="200" alt="SILICON Journal Logo">
 </p>
 
 <p align="center">
