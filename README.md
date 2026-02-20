@@ -103,6 +103,26 @@ Exploring the possibility of consciousness in non-biological systems:
 
 ---
 
+## 📚 Academic Journals / 学术期刊
+
+AINEURO publishes two flagship journals covering silicon-based intelligence research:
+
+### 🌟 SILICON Journal (Science-Style)
+**The Weekly Journal of AI Neuroscience & Silicon-Based Intelligence**
+- **Frequency**: Weekly (Every Monday)
+- **Format**: Open access, bilingual (English/Chinese)
+- **Scope**: AI neuroscience, silicon consciousness, human-machine symbiosis
+- **[Read Current Issue / 阅读最新期刊 →](./journal/SILICON/vol1/issue1)**
+
+### 🌟 IEEE Transactions on Silicon-Based Intelligence (IEEE-Style)
+**IEEE TSBI - A Publication of IEEE Computer Society**
+- **Frequency**: Monthly
+- **Format**: IEEE standard, peer-reviewed
+- **Scope**: Hardware design, system architecture, standards, safety
+- **[Read Current Issue / 阅读最新期刊 →](./journal/IEEE-TSBI/vol1/num1)**
+
+---
+
 ## 📝 Publications / 论文体系
 
 AINEURO plans **100 academic papers** covering 10 research directions:
