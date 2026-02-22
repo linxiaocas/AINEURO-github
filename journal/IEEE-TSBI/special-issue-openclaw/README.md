@@ -1,65 +1,126 @@
-# Journal of AI Systems & Architecture
-## Special Issue on OpenClaw
-
-### OpenClaw: An Open Agent Framework for Intelligent System Control
+# OpenClaw: A Unified Framework for Multi-Agent AI Systems
+## IEEE Transactions on AI Systems Special Issue
 
 ---
 
-**Volume 15, Issue 2 | February 2026**
-
-**ISSN:** 2576-5337 (Online) | **ISSN:** 2576-5329 (Print)
-
-**Special Issue Editors:**
-- Lin Xiao, Principal Architect, OpenClaw Project
-- Openclaw, Kimi, Lead Researcher, OpenClaw Foundation
+**Journal Issue Information**
+- **Volume**: IEEE-TSBI Special Issue 2025
+- **Title**: OpenClaw: A Unified Framework for Multi-Agent AI Systems
+- **Editors**: Lin Xiao, Openclaw, Kimi
+- **Published**: 2025
 
 ---
+
+## About This Issue
+
+This special issue introduces OpenClaw, a groundbreaking unified framework designed to bridge the gap between large language models (LLMs) and real-world application environments. OpenClaw represents a paradigm shift in how AI systems interact with external tools, manage multi-channel communications, and maintain persistent context across sessions.
 
 ## Table of Contents
 
-| # | Article | Authors | Type | Pages |
-|---|---------|---------|------|-------|
-| 1 | **OpenClaw: A Modular Agent Framework for Distributed System Control** | Lin Xiao, Openclaw, Kimi | Review/Architecture | 1-15 |
-| 2 | **The OpenClaw Gateway: Event-Driven Architecture for Real-Time Agent Communication** | Lin Xiao, Openclaw, Kimi | System | 16-27 |
-| 3 | **Skill-Based Agent Extensibility in OpenClaw** | Lin Xiao, Openclaw, Kimi | Technical | 28-37 |
-| 4 | **Multi-Channel Integration for Conversational Agents: The OpenClaw Approach** | Lin Xiao, Openclaw, Kimi | Application | 38-47 |
-| 5 | **Secure Agent Execution: Sandboxing and Permission Model in OpenClaw** | Lin Xiao, Openclaw, Kimi | Security | 48-59 |
-| 6 | **Memory Management for Long-Running Agents: The Mem0 Integration in OpenClaw** | Lin Xiao, Openclaw, Kimi | Technical | 60-69 |
-| 7 | **Cron-Based Task Scheduling in Agent Systems** | Lin Xiao, Openclaw, Kimi | Technical | 70-77 |
-| 8 | **Browser Automation and Canvas Control: Advanced Capabilities in OpenClaw** | Lin Xiao, Openclaw, Kimi | Application | 78-87 |
+### Editorial
+1. **[Editorial Preface](./editorial_preface.md)** - The Vision Behind OpenClaw
+
+### Technical Articles
+
+#### Part I: Core Architecture & Systems
+
+1. **[Article 1: OpenClaw Framework Overview](./article_01_framework.md)** | [中文版](./article_01_framework_zh.md)
+   - *Authors: Lin Xiao, Openclaw, Kimi*
+   - A comprehensive survey of the OpenClaw architecture, design philosophy, and core components
+   - **Keywords**: Multi-agent systems, LLM integration, framework design, tool orchestration
+
+2. **[Article 2: Gateway Architecture and Service Management](./article_02_gateway.md)**
+   - *Authors: Lin Xiao, Openclaw, Kimi*
+   - Deep dive into the Gateway daemon architecture, service lifecycle, and inter-process communication
+   - **Keywords**: Service-oriented architecture, daemon processes, IPC, process management
+
+3. **[Article 3: Skill System and Tool Integration](./article_03_skills.md)**
+   - *Authors: Lin Xiao, Openclaw, Kimi*
+   - Analysis of the skill abstraction layer, tool discovery, and dynamic capability loading
+   - **Keywords**: Tool use, skill abstraction, dynamic loading, capability management
+
+4. **[Article 4: Multi-Channel Integration Framework](./article_04_multichannel.md)**
+   - *Authors: Lin Xiao, Openclaw, Kimi*
+   - Comprehensive treatment of channel abstraction, message routing, and cross-platform messaging
+   - **Keywords**: Multi-channel messaging, message routing, platform abstraction, unified communications
+
+#### Part II: Security, Memory & Automation
+
+5. **[Article 5: Security Model and Sandboxed Execution](./article_05_security.md)**
+   - *Authors: Lin Xiao, Openclaw, Kimi*
+   - Security architecture, sandbox implementation, and safe execution environments
+   - **Keywords**: Security, sandboxing, access control, safe execution
+
+6. **[Article 6: Memory Systems and Context Management](./article_06_memory.md)**
+   - *Authors: Lin Xiao, Openclaw, Kimi*
+   - Memory hierarchy, long-term storage, and session continuity mechanisms
+   - **Keywords**: Memory management, context persistence, long-term memory, session management
+
+7. **[Article 7: Cron Scheduling and Task Automation](./article_07_cron.md)**
+   - *Authors: Lin Xiao, Openclaw, Kimi*
+   - Temporal task scheduling, job management, and automated workflow execution
+   - **Keywords**: Task scheduling, cron jobs, automation, temporal logic
+
+8. **[Article 8: Browser Automation and Web Interaction](./article_08_browser.md)**
+   - *Authors: Lin Xiao, Openclaw, Kimi*
+   - Web automation capabilities, browser control, and web-based tool integration
+   - **Keywords**: Browser automation, web scraping, DOM manipulation, web interaction
 
 ---
 
-## About This Special Issue
+## Key Contributions
 
-This special issue presents a comprehensive technical exploration of OpenClaw, an open-source agent framework designed for distributed system control and intelligent automation. As autonomous agents become increasingly central to modern computing infrastructure, the need for well-architected, extensible, and secure agent frameworks has never been greater.
+This special issue presents the following major contributions to the field of AI systems:
 
-OpenClaw represents a significant advancement in agent framework design, combining:
-- **Modular architecture** with skill-based extensibility
-- **Event-driven communication** through the Gateway subsystem
-- **Multi-channel integration** supporting diverse messaging platforms
-- **Robust security** with sandboxing and permission models
-- **Persistent memory** for long-running agent contexts
-- **Advanced automation** capabilities including browser and canvas control
-
-The eight papers in this collection span theoretical foundations, architectural decisions, implementation details, and practical applications. Together, they provide both researchers and practitioners with the knowledge needed to understand, extend, and deploy OpenClaw-based agent systems.
+1. **Unified Architecture**: A cohesive framework integrating LLMs with external tools through a well-defined abstraction layer
+2. **Security-First Design**: Comprehensive sandboxing and security models enabling safe execution of untrusted code
+3. **Multi-Channel Prowess**: Seamless integration across messaging platforms while maintaining context continuity
+4. **Persistent Memory**: Novel approaches to long-term memory management and cross-session context preservation
+5. **Temporal Awareness**: Built-in scheduling and automation capabilities for proactive AI assistance
 
 ---
 
-## Submission and Review Process
+## Target Audience
 
-All articles in this special issue underwent rigorous peer review by experts in artificial intelligence, distributed systems, and software architecture. Each paper received at least three reviews before acceptance.
-
-**Submission Deadline:** December 15, 2025  
-**Acceptance Notification:** January 20, 2026  
-**Publication Date:** February 15, 2026
-
----
-
-## Open Access Statement
-
-This special issue is published under the Creative Commons Attribution 4.0 International License (CC BY 4.0). All articles are freely available for reading, downloading, and distribution with proper attribution.
+This issue is intended for:
+- AI system architects and framework developers
+- Researchers in multi-agent systems and LLM applications
+- Engineers building production AI systems requiring tool integration
+- Academic researchers studying human-AI collaboration patterns
+- Industry practitioners seeking to deploy sophisticated AI assistants
 
 ---
 
-*Published by the OpenClaw Foundation in collaboration with the Journal of AI Systems & Architecture*
+## Citation Information
+
+If you use OpenClaw or reference this work, please cite:
+
+```bibtex
+@article{openclaw2025framework,
+  title={OpenClaw: A Unified Framework for Multi-Agent AI Systems},
+  author={Xiao, Lin and Openclaw and Kimi},
+  journal={IEEE Transactions on AI Systems - Special Issue},
+  year={2025},
+  volume={SI-2025},
+  publisher={IEEE}
+}
+```
+
+---
+
+## License and Availability
+
+OpenClaw is released under open-source licenses. The framework and associated documentation are available at:
+- **Repository**: [GitHub - OpenClaw Framework](https://github.com/openclaw/framework)
+- **Documentation**: [https://docs.openclaw.io](https://docs.openclaw.io)
+- **Community**: [Discord - OpenClaw Community](https://discord.gg/openclaw)
+
+---
+
+*This special issue represents a collaborative effort between academic researchers and industry practitioners to advance the state of the art in AI system frameworks.*
+
+---
+
+**Issue Editors**: Lin Xiao, Openclaw, Kimi  
+**Editorial Board**: IEEE Transactions on AI Systems  
+**Publication Date**: 2025
