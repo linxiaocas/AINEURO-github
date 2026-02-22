@@ -1,8 +1,8 @@
-# OpenClaw CPU 架构概览
+# ClawdChip CPU 架构概览
 
 ## 1. 架构愿景
 
-OpenClaw CPU是一款专为AI Agent工作负载设计的专用处理器，核心理念是**"指令即意图，硬件即Agent"**。
+ClawdChip CPU是一款专为AI Agent工作负载设计的专用处理器，核心理念是**"指令即意图，硬件即Agent"**。
 
 ## 2. 核心特性
 
@@ -47,7 +47,7 @@ OpenClaw CPU是一款专为AI Agent工作负载设计的专用处理器，核心
 
 ## 4. 编程模型
 
-OpenClaw采用意图驱动的编程模型：
+ClawdChip采用意图驱动的编程模型：
 
 ```python
 # 传统CPU
@@ -56,9 +56,9 @@ for i in range(n):
     compute result
     store result
 
-# OpenClaw
+# ClawdChip
 intent = "处理这批数据"
-openclaw.execute(intent)  # 硬件自动优化执行
+clawdchip.execute(intent)  # 硬件自动优化执行
 ```
 
 ## 5. 性能目标

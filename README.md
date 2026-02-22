@@ -5,7 +5,7 @@
 [![Documentation](https://img.shields.io/badge/docs-latest-blue.svg)](./docs)
 [![Papers](https://img.shields.io/badge/papers-100%2B-green.svg)](./theses)
 [![Journals](https://img.shields.io/badge/journals-4%20titles-orange.svg)](./journal)
-[![OpenClaw CPU](https://img.shields.io/badge/OpenClaw-CPU-red.svg)](./openclaw-cpu)
+[![ClawdChip CPU](https://img.shields.io/badge/ClawdChip-CPU-red.svg)](./clawdchip-cpu)
 [![Stars](https://img.shields.io/github/stars/linxiaocas/AINEURO-github?style=social)](https://github.com/linxiaocas/AINEURO-github)
 
 
@@ -125,11 +125,11 @@ AINEURO publishes two flagship journals covering silicon-based intelligence rese
 
 ---
 
-### 🔥 OpenClaw Journal Series / OpenClaw期刊系列
+### 🔥 ClawdChip Journal Series / ClawdChip期刊系列
 
 #### **Journal of AI Systems & Architecture / AI系统与架构期刊**
 **Focus**: Multi-agent systems, distributed architecture, performance optimization / 多代理系统、分布式架构、性能优化
-- **Vol 1** (Feb 2026): OpenClaw Framework / OpenClaw框架 (16 papers)
+- **Vol 1** (Feb 2026): ClawdChip Framework / ClawdChip框架 (16 papers)
 - **Vol 2** (Mar 2026): System Optimization / 系统优化 (6 papers)
 - **Vol 3** (Apr 2026): AI Security / AI安全 (6 papers)
 - **Vol 4** (May 2026): Edge AI / 边缘AI (6 papers)
@@ -137,7 +137,7 @@ AINEURO publishes two flagship journals covering silicon-based intelligence rese
 
 #### **International Journal of Human-AI Collaboration / 人机协作国际期刊**
 **Focus**: Human-computer interaction, AI ethics, partnership dynamics / 人机交互、AI伦理、伙伴关系
-- **Vol 1** (Feb 2026): OpenClaw Collaboration / OpenClaw协作 (14 papers)
+- **Vol 1** (Feb 2026): ClawdChip Collaboration / ClawdChip协作 (14 papers)
 - **Vol 2** (Mar 2026): HCI Design / 人机交互设计 (6 papers)
 - **Vol 3** (Apr 2026): Ethics & Society / 伦理与社会 (6 papers)
 - **Vol 4** (May 2026): Applications / 应用实践 (6 papers)
@@ -147,23 +147,23 @@ AINEURO publishes two flagship journals covering silicon-based intelligence rese
 
 ### 🔥 Special Issues / 特刊
 
-#### **OpenClaw: An Open Agent Framework for Intelligent System Control**
-#### **OpenClaw：开放式智能系统控制代理框架特刊**
+#### **ClawdChip: An Open Agent Framework for Intelligent System Control**
+#### **ClawdChip：开放式智能系统控制代理框架特刊**
 
 **Published / 出版**: February 2026 / 2026年2月  
 **Guest Editors / 客座编辑**: Lin Xiao, Openclaw, Kimi  
 **Publisher / 出版商**: IEEE TSBI
 
-This special issue presents a comprehensive collection of 15 papers on **OpenClaw**, covering:
+This special issue presents a comprehensive collection of 15 papers on **ClawdChip**, covering:
 - System Architecture & Implementation / 系统架构与实现 (8 papers)
 - Human-AI Collaboration / 人机协作 (7 papers)
 
-本期特刊全面介绍 **OpenClaw** 开源代理框架，涵盖系统架构、人机协作以及人机关系演进等主题。
+本期特刊全面介绍 **ClawdChip** 开源代理框架，涵盖系统架构、人机协作以及人机关系演进等主题。
 
 | Journal / 期刊 | Content / 内容 | Articles / 文章数 | Link |
 |---------------|----------------|-------------------|------|
-| **Journal of AI Systems** | System Architecture / 系统架构 | 8 | [Read / 阅读](./journal/IEEE-TSBI/special-issue-openclaw) |
-| **Human-AI Collaboration** | Collaboration Dynamics / 协作动态 | 7 | [Read / 阅读](./journal/IEEE-TSBI/special-issue-openclaw/human-ai-collaboration) |
+| **Journal of AI Systems** | System Architecture / 系统架构 | 8 | [Read / 阅读](./journal/IEEE-TSBI/special-issue-clawdchip) |
+| **Human-AI Collaboration** | Collaboration Dynamics / 协作动态 | 7 | [Read / 阅读](./journal/IEEE-TSBI/special-issue-clawdchip/human-ai-collaboration) |
 
 **Key Topics / 关键主题**:
 - Event-Driven Gateway Architecture / 事件驱动网关架构
@@ -175,7 +175,7 @@ This special issue presents a comprehensive collection of 15 papers on **OpenCla
 - SOUL.md Identity Protocol / SOUL.md身份协议
 - Privacy-Aware Memory / 隐私感知内存
 
-**[📖 Read Special Issue / 阅读特刊 →](./journal/IEEE-TSBI/special-issue-openclaw/SPECIAL_ISSUE_README.md)**
+**[📖 Read Special Issue / 阅读特刊 →](./journal/IEEE-TSBI/special-issue-clawdchip/SPECIAL_ISSUE_README.md)**
 
 ---
 
@@ -248,12 +248,12 @@ print(f"System consciousness level / 系统意识程度: {c_phi}")
 
 ---
 
-## 🖥️ OpenClaw CPU Project / OpenClaw CPU项目
+## 🖥️ ClawdChip CPU Project / ClawdChip CPU项目
 
 ### 🌟 The World's First AI-Designed Open Source CPU
 ### 🌟 全球首个AI自主设计的开源CPU
 
-**[👉 Explore OpenClaw CPU Project / 探索OpenClaw CPU项目](./openclaw-cpu/)**
+**[👉 Explore ClawdChip CPU Project / 探索ClawdChip CPU项目](./clawdchip-cpu/)**
 
 We are building the world's first CPU fully designed by AI agents, specifically optimized for AI agent workloads.
 
@@ -271,7 +271,7 @@ We are building the world's first CPU fully designed by AI agents, specifically 
 > 
 > "Let everyone have their own dedicated AI brain chip"
 
-**[📖 Architecture Overview](./openclaw-cpu/docs/architecture/overview.md)** | **[🚀 Quick Start](./openclaw-cpu/README.md#快速开始)** | **[🤝 Contribute](./openclaw-cpu/CONTRIBUTING.md)**
+**[📖 Architecture Overview](./clawdchip-cpu/docs/architecture/overview.md)** | **[🚀 Quick Start](./clawdchip-cpu/README.md#快速开始)** | **[🤝 Contribute](./clawdchip-cpu/CONTRIBUTING.md)**
 
 ---
 

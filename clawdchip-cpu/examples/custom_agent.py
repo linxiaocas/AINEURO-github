@@ -1,10 +1,10 @@
 # examples/custom_agent.py
-from openclaw import Agent, IntentEngine
+from clawdchip import Agent, IntentEngine
 
 class MyPersonalAgent(Agent):
     """
     示例：自定义个人Agent
-    展示如何在OpenClaw CPU上运行自定义Agent
+    展示如何在ClawdChip CPU上运行自定义Agent
     """
     
     def __init__(self):
@@ -22,8 +22,8 @@ class MyPersonalAgent(Agent):
         hw_config = self.compile_intent_to_hardware(intent)
         print(f"⚙️  生成硬件配置")
         
-        # 3. 在OpenClaw上执行
-        result = await self.openclaw_execute(hw_config)
+        # 3. 在ClawdChip上执行
+        result = await self.clawdchip_execute(hw_config)
         print(f"✅ 执行完成")
         
         return result
@@ -45,7 +45,7 @@ if __name__ == "__main__":
     
     # 示例对话
     async def demo():
-        print("🤖 OpenClaw Agent Demo\n")
+        print("🤖 ClawdChip Agent Demo\n")
         
         queries = [
             "帮我写一段Python代码",

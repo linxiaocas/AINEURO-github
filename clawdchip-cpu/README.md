@@ -1,4 +1,4 @@
-# OpenClaw: 全球首个AI自主设计的CPU开源项目 🌟
+# ClawdChip: 全球首个AI自主设计的CPU开源项目 🌟
 
 ## 项目愿景
 
@@ -20,7 +20,7 @@
 ## 📂 项目结构
 
 ```
-openclaw-cpu/
+clawdchip-cpu/
 ├── docs/                      # 文档中心
 │   ├── architecture/          # 架构设计文档
 │   ├── spec/                  # 技术规格说明书
@@ -38,13 +38,34 @@ openclaw-cpu/
 │   ├── optimization-ai/       # 优化AI
 │   └── verification-ai/       # 验证AI
 ├── tools/                     # 工具链
-│   ├── compiler/              # OpenClaw专用编译器
+│   ├── compiler/              # ClawdChip专用编译器
 │   ├── simulator/             # 周期精确模拟器
 │   └── debugger/              # 可视化调试器
 ├── tests/                     # 测试套件
 ├── build/                     # 构建系统
 └── community/                 # 社区贡献
 ```
+
+---
+
+## 📰 最新动态
+
+### 🔥 重磅发布：ClawdChip CPU 技术解析
+
+- **[技术深度解析](./docs/architecture/deep-dive.md)** - 全面解析四大核心创新点
+- **[官方新闻稿](./community/news/news-official.md)** - 芯片革命！性能暴增1000倍
+- **[详细报道](./community/news/news-detailed.md)** - 世界首颗AI自己给自己造的大脑芯片
+- **[AI设计揭秘](./community/news/news-ai-designed.md)** - 芯片设计界"天网"降临
+- **[爆文解读](./community/news/news-viral.md)** - 炸了！AI给自己造了颗"脑子"
+
+### 📊 核心数据
+
+| 指标 | 数值 | 对比 |
+|------|------|------|
+| 单核性能 | 3.2x | vs Zen 5 |
+| 吞吐量提升 | 1000x | vs 传统NPU |
+| 延迟降低 | 300x | 毫秒→微秒 |
+| 能效提升 | 500x | 综合能效 |
 
 ---
 
@@ -91,7 +112,7 @@ endmodule
 
 ```python
 # Python伪代码：Agent执行模型
-class OpenClawAgentEngine:
+class ClawdChipAgentEngine:
     def __init__(self):
         self.dit_accelerator = DitHardware()    # 硬化的DiT模型
         self.memory_graph = MemoryGraph()       # 记忆图
@@ -153,8 +174,8 @@ class DitHardware extends Module {
 ### 克隆项目
 
 ```bash
-git clone https://github.com/your-username/openclaw-cpu.git
-cd openclaw-cpu
+git clone https://github.com/your-username/clawdchip-cpu.git
+cd clawdchip-cpu
 ```
 
 ### 安装依赖
@@ -182,7 +203,7 @@ make deps
 
 ```python
 # examples/custom_agent.py
-from openclaw import Agent, IntentEngine
+from clawdchip import Agent, IntentEngine
 
 class MyPersonalAgent(Agent):
     def __init__(self):
@@ -196,8 +217,8 @@ class MyPersonalAgent(Agent):
         # 直接生成硬件配置
         hw_config = self.compile_intent_to_hardware(intent)
         
-        # 在OpenClaw上执行
-        result = await self.openclaw_execute(hw_config)
+        # 在ClawdChip上执行
+        result = await self.clawdchip_execute(hw_config)
         
         return result
 
@@ -330,7 +351,7 @@ agent.run()
 
 ## 🔗 相关链接
 
-- [项目Wiki](https://github.com/your-username/openclaw-cpu/wiki)
+- [项目Wiki](https://github.com/your-username/clawdchip-cpu/wiki)
 - [架构概览](./docs/architecture/overview.md)
 - [贡献指南](./CONTRIBUTING.md)
 - [行为准则](./CODE_OF_CONDUCT.md)
@@ -338,5 +359,5 @@ agent.run()
 ---
 
 <p align="center">
-<b>让每个人都能拥有自己的AI大脑，这就是OpenClaw的使命。</b>
+<b>让每个人都能拥有自己的AI大脑，这就是ClawdChip的使命。</b>
 </p>

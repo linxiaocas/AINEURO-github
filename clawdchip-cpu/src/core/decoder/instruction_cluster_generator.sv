@@ -1,5 +1,5 @@
 // instruction_cluster_generator.sv
-// 动态指令簇生成器 - OpenClaw核心组件
+// 动态指令簇生成器 - ClawdChip核心组件
 // 32路超标量解码器的关键模块
 
 module instruction_cluster_generator #(

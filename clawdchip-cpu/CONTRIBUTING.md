@@ -1,6 +1,6 @@
 # 贡献指南
 
-感谢你对OpenClaw CPU项目的关注！我们欢迎各种形式的贡献。
+感谢你对ClawdChip CPU项目的关注！我们欢迎各种形式的贡献。
 
 ## 如何开始
 
@@ -57,8 +57,8 @@
 
 ## 联系方式
 
-- Discord: https://discord.gg/openclaw
-- Email: openclaw-cpu@example.com
+- Discord: https://discord.gg/clawdchip
+- Email: clawdchip-cpu@example.com
 
 ---
 

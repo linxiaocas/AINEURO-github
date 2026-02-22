@@ -1,6 +1,6 @@
 // hmu.sv
 // Hierarchical Memory Unit - 层次化内存管理单元
-// OpenClaw三层存储系统的核心组件
+// ClawdChip三层存储系统的核心组件
 
 module hmu #(
     parameter SRAM_SIZE   = 128 * 1024 * 1024,     // 128MB
