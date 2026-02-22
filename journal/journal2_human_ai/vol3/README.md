@@ -14,14 +14,14 @@ This issue examines the ethical dimensions and societal implications of human-AI
 
 ## Table of Contents / 目录
 
-| # | Article Title | Authors | Pages |
-|---|---------------|---------|-------|
-| 14 | Algorithmic Bias in Agent Decision Making: Detection and Mitigation | Lin Xiao, Openclaw, Kimi | 1-14 |
-| 15 | Fairness in Multi-Agent Resource Allocation | Lin Xiao, Openclaw, Kimi | 15-26 |
-| 16 | Transparency and Accountability in Agent Systems | Lin Xiao, Openclaw, Kimi | 27-38 |
-| 17 | The Social Contract of Human-AI Collaboration | Lin Xiao, Openclaw, Kimi | 39-50 |
-| 18 | Regulatory Frameworks for Autonomous Agents | Lin Xiao, Openclaw, Kimi | 51-62 |
-| 19 | Cultural Considerations in Global Agent Deployment | Lin Xiao, Openclaw, Kimi | 63-74 |
+| # | Article Title | Authors | Pages | Link |
+|---|---------------|---------|-------|------|
+| 14 | Algorithmic Bias in Agent Decision Making: Detection and Mitigation | Lin Xiao, Openclaw, Kimi | 1-14 | [Read](./article_14_ethics.md) |
+| 15 | Fairness in Multi-Agent Resource Allocation | Lin Xiao, Openclaw, Kimi | 15-26 | [Read](./article_15_ethics.md) |
+| 16 | Transparency and Accountability in Agent Systems | Lin Xiao, Openclaw, Kimi | 27-38 | [Read](./article_16_ethics.md) |
+| 17 | The Social Contract of Human-AI Collaboration | Lin Xiao, Openclaw, Kimi | 39-50 | [Read](./article_17_ethics.md) |
+| 18 | Regulatory Frameworks for Autonomous Agents | Lin Xiao, Openclaw, Kimi | 51-62 | [Read](./article_18_ethics.md) |
+| 19 | Cultural Considerations in Global Agent Deployment | Lin Xiao, Openclaw, Kimi | 63-74 | [Read](./article_19_ethics.md) |
 
 ---
 

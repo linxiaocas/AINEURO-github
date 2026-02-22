@@ -14,14 +14,14 @@ This issue explores the design of effective human-AI interfaces, focusing on use
 
 ## Table of Contents / 目录
 
-| # | Article Title | Authors | Pages |
-|---|---------------|---------|-------|
-| 8 | Designing Conversational Interfaces for Mixed-Initiative Interaction | Lin Xiao, Openclaw, Kimi | 1-14 |
-| 9 | Emotional Intelligence in AI Agents: Recognition and Response | Lin Xiao, Openclaw, Kimi | 15-26 |
-| 10 | Adaptive UI: Personalizing Agent Interfaces to User Preferences | Lin Xiao, Openclaw, Kimi | 27-38 |
-| 11 | Multimodal Interaction: Voice, Gesture, and Gaze in Agent Systems | Lin Xiao, Openclaw, Kimi | 39-50 |
-| 12 | Accessibility in AI: Inclusive Design for Diverse Users | Lin Xiao, Openclaw, Kimi | 51-62 |
-| 13 | Microinteractions: The Subtle Art of Agent Feedback | Lin Xiao, Openclaw, Kimi | 63-74 |
+| # | Article Title | Authors | Pages | Link |
+|---|---------------|---------|-------|------|
+| 8 | Designing Conversational Interfaces for Mixed-Initiative Interaction | Lin Xiao, Openclaw, Kimi | 1-14 | [Read](./article_08_hci.md) |
+| 9 | Emotional Intelligence in AI Agents: Recognition and Response | Lin Xiao, Openclaw, Kimi | 15-26 | [Read](./article_09_hci.md) |
+| 10 | Adaptive UI: Personalizing Agent Interfaces to User Preferences | Lin Xiao, Openclaw, Kimi | 27-38 | [Read](./article_10_hci.md) |
+| 11 | Multimodal Interaction: Voice, Gesture, and Gaze in Agent Systems | Lin Xiao, Openclaw, Kimi | 39-50 | [Read](./article_11_hci.md) |
+| 12 | Accessibility in AI: Inclusive Design for Diverse Users | Lin Xiao, Openclaw, Kimi | 51-62 | [Read](./article_12_hci.md) |
+| 13 | Microinteractions: The Subtle Art of Agent Feedback | Lin Xiao, Openclaw, Kimi | 63-74 | [Read](./article_13_hci.md) |
 
 ---
 

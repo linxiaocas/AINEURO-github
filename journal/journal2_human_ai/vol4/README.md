@@ -14,14 +14,14 @@ This issue presents real-world applications of human-AI collaboration across hea
 
 ## Table of Contents / 目录
 
-| # | Article Title | Authors | Pages |
-|---|---------------|---------|-------|
-| 20 | AI Agents in Clinical Decision Support: Opportunities and Challenges | Lin Xiao, Openclaw, Kimi | 1-14 |
-| 21 | Intelligent Tutoring Systems: Personalized Learning at Scale | Lin Xiao, Openclaw, Kimi | 15-26 |
-| 22 | Collaborative Creativity: Humans and AI in Artistic Production | Lin Xiao, Openclaw, Kimi | 27-38 |
-| 23 | Agent-Assisted Scientific Discovery: From Hypothesis to Publication | Lin Xiao, Openclaw, Kimi | 39-50 |
-| 24 | Smart Home Agents: Balancing Automation and User Control | Lin Xiao, Openclaw, Kimi | 51-62 |
-| 25 | Crisis Response: Coordination Between Human Teams and AI Assistants | Lin Xiao, Openclaw, Kimi | 63-74 |
+| # | Article Title | Authors | Pages | Link |
+|---|---------------|---------|-------|------|
+| 20 | AI Agents in Clinical Decision Support: Opportunities and Challenges | Lin Xiao, Openclaw, Kimi | 1-14 | [Read](./article_20_application.md) |
+| 21 | Intelligent Tutoring Systems: Personalized Learning at Scale | Lin Xiao, Openclaw, Kimi | 15-26 | [Read](./article_21_application.md) |
+| 22 | Collaborative Creativity: Humans and AI in Artistic Production | Lin Xiao, Openclaw, Kimi | 27-38 | [Read](./article_22_application.md) |
+| 23 | Agent-Assisted Scientific Discovery: From Hypothesis to Publication | Lin Xiao, Openclaw, Kimi | 39-50 | [Read](./article_23_application.md) |
+| 24 | Smart Home Agents: Balancing Automation and User Control | Lin Xiao, Openclaw, Kimi | 51-62 | [Read](./article_24_application.md) |
+| 25 | Crisis Response: Coordination Between Human Teams and AI Assistants | Lin Xiao, Openclaw, Kimi | 63-74 | [Read](./article_25_application.md) |
 
 ---
 
