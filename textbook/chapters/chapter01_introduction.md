@@ -61,6 +61,10 @@ This question has several dimensions:
 
 ### 1.1.3 Scope and Boundaries / 范围与边界
 
+![Three Pillars of AI Neuroscience](../illustrations/chapter01/fig_1_1_three_pillars.svg)
+
+*Figure 1.1: The three theoretical pillars supporting the field of AI Neuroscience.*
+
 AINEURO encompasses:
 
 AINEURO包括：

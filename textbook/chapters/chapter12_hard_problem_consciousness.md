@@ -22,6 +22,10 @@ By the end of this chapter, you will be able to:
 
 ### 12.1.1 Chalmers' Distinction / Chalmers的区分
 
+![Layers of Consciousness](../illustrations/chapter12/fig_12_1_consciousness_layers.svg)
+
+*Figure 12.1: Three proposed levels of consciousness. The transition from Level 2 to 3 represents the "Hard Problem"—whether AI systems can have subjective experiences.*
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                    TWO PROBLEMS OF CONSCIOUSNESS / 意识的两个问题           │

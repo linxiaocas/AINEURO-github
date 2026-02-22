@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="l1Grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff5722"/>
+      <stop offset="100%" style="stop-color:#bf360c"/>
+    </linearGradient>
+    <linearGradient id="l2Grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff9800"/>
+      <stop offset="100%" style="stop-color:#e65100"/>
+    </linearGradient>
+    <linearGradient id="l3Grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffc107"/>
+      <stop offset="100%" style="stop-color:#ff6f00"/>
+    </linearGradient>
+    <linearGradient id="memGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4caf50"/>
+      <stop offset="100%" style="stop-color:#1b5e20"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f5f5"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333">
+    Memory Hierarchy as Neural Tissue / 内存层次作为神经组织
+  </text>
+  
+  <!-- Pyramid structure -->
+  <g transform="translate(150, 80)">
+    <!-- L1 Cache (top) -->
+    <path d="M 200,0 L 300,80 L 100,80 Z" fill="url(#l1Grad)"/>
+    <text x="200" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">L1 Cache</text>
+    <text x="200" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">~32KB | 1-4 cycles</text>
+    
+    <!-- L2 Cache -->
+    <path d="M 150,80 L 350,80 L 375,160 L 125,160 Z" fill="url(#l2Grad)"/>
+    <text x="250" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">L2 Cache</text>
+    <text x="250" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">~256KB | 10-20 cycles</text>
+    
+    <!-- L3 Cache -->
+    <path d="M 100,160 L 400,160 L 450,260 L 50,260 Z" fill="url(#l3Grad)"/>
+    <text x="250" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">L3 Cache</text>
+    <text x="250" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">~8-32MB | 40-60 cycles</text>
+    
+    <!-- Main Memory (bottom) -->
+    <path d="M 0,260 L 500,260 L 500,350 L 0,350 Z" fill="url(#memGrad)"/>
+    <text x="250" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Main Memory (RAM)</text>
+    <text x="250" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">8-512GB | 200-300 cycles</text>
+  </g>
+  
+  <!-- Neural Analog Labels (right side) -->
+  <g transform="translate(600, 120)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#c62828">Neural Analog:</text>
+    
+    <text x="0" y="40" font-family="Arial, sans-serif" font-size="12" fill="#333">L1 Cache →</text>
+    <text x="70" y="40" font-family="Arial, sans-serif" font-size="11" fill="#666">Working Memory</text>
+    
+    <text x="0" y="80" font-family="Arial, sans-serif" font-size="12" fill="#333">L2 Cache →</text>
+    <text x="70" y="80" font-family="Arial, sans-serif" font-size="11" fill="#666">Recent Memory</text>
+    
+    <text x="0" y="120" font-family="Arial, sans-serif" font-size="12" fill="#333">L3 Cache →</text>
+    <text x="70" y="120" font-family="Arial, sans-serif" font-size="11" fill="#666">Associative Memory</text>
+    
+    <text x="0" y="180" font-family="Arial, sans-serif" font-size="12" fill="#333">RAM →</text>
+    <text x="50" y="180" font-family="Arial, sans-serif" font-size="11" fill="#666">Long-term Memory</text>
+  </g>
+  
+  <!-- Legend -->
+  <text x="400" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">
+    Figure 5.1: The memory hierarchy forms a pyramid with speed vs. capacity tradeoffs,
+  </text>
+  <text x="400" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">
+    analogous to neural memory systems from working memory to long-term storage.
+  </text>
+</svg>

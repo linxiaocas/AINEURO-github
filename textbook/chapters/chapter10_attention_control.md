@@ -22,6 +22,10 @@ By the end of this chapter, you will be able to:
 
 ### 10.1.1 Selective Attention in the Brain / 大脑中的选择性注意
 
+![Attention Mechanism](../illustrations/chapter10/fig_10_1_attention.svg)
+
+*Figure 10.1: The attention mechanism enables dynamic focusing on relevant input elements, analogous to selective attention in the visual cortex.*
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │           ATTENTION SYSTEMS IN THE BRAIN / 大脑中的注意系统                 │

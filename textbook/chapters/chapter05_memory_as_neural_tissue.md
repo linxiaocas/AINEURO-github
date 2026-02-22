@@ -28,49 +28,9 @@ Both computers and brains use hierarchical memory systems:
 
 **Figure 5.1: Memory Hierarchy Comparison / 图5.1：内存层次比较**
 
-```
-COMPUTER / 计算机                    BRAIN / 大脑
-─────────────────────────────────    ─────────────────────────────────
-    Speed ↑                              Speed ↑
-    │                                    │
-    │  ┌─────────────┐                   │  ┌─────────────┐
-    │  │  Registers  │  <1ns            │  │   Working   │  <10ms
-    │  │  ~1KB       │                   │  │   Memory    │  (PFC)
-    │  └──────┬──────┘                   │  │   ~7 items  │
-    │         │                          │  └──────┬──────┘
-    │  ┌──────┴──────┐                   │         │
-    │  │  L1 Cache   │  ~1ns            │  ┌──────┴──────┐
-    │  │  ~32KB      │                   │  │   Early     │  ~100ms
-    │  └──────┬──────┘                   │  │   Sensory   │
-    │         │                          │  └──────┬──────┘
-    │  ┌──────┴──────┐                   │         │
-    │  │  L2 Cache   │  ~4ns            │  ┌──────┴──────┐
-    │  │  ~256KB     │                   │  │ Hippocampus │  ~minutes
-    │  └──────┬──────┘                   │  │  (Episodic) │
-    │         │                          │  └──────┬──────┘
-    │  ┌──────┴──────┐                   │         │
-    │  │  L3 Cache   │  ~10ns           │  ┌──────┴──────┐
-    │  │  ~8MB       │                   │  │   Cortex    │  ~years
-    │  └──────┬──────┘                   │  │  (Semantic) │
-    │         │                          │  └──────┬──────┘
-    │  ┌──────┴──────┐                   │         │
-    │  │    RAM      │  ~100ns          │  ┌──────┴──────┐
-    │  │   ~16GB     │                   │  │ Structural  │  ~lifetime
-    │  └──────┬──────┘                   │  │   Changes   │
-    │         │                          │  └─────────────┘
-    │  ┌──────┴──────┐
-    │  │    SSD      │  ~10μs
-    │  │   ~1TB      │
-    │  └──────┬──────┘
-    │         │
-    │  ┌──────┴──────┐
-    │  │    HDD      │  ~10ms
-    │  │   ~4TB      │
-    │  └─────────────┘
-    │
-    └────────────────────────────────
-         Capacity →                      Capacity →
-```
+![Memory Hierarchy Pyramid](../illustrations/chapter05/fig_5_1_memory_hierarchy.svg)
+
+*Figure 5.1: The memory hierarchy forms a pyramid with speed vs. capacity tradeoffs, analogous to neural memory systems from working memory to long-term storage.*
 
 ### 5.1.2 Memory Technologies / 内存技术
 

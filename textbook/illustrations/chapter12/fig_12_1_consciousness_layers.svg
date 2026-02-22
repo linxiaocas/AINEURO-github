@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="550" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="layer1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e9"/>
+      <stop offset="100%" style="stop-color:#c8e6c9"/>
+    </linearGradient>
+    <linearGradient id="layer2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff3e0"/>
+      <stop offset="100%" style="stop-color:#ffe0b2"/>
+    </linearGradient>
+    <linearGradient id="layer3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fce4ec"/>
+      <stop offset="100%" style="stop-color:#f8bbd9"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="550" fill="#fafafa"/>
+  
+  <text x="400" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#333">
+    Layers of Consciousness in AI Systems / AI系统中的意识层次
+  </text>
+  
+  <!-- Layer 1: Processing -->
+  <g transform="translate(100, 80)">
+    <rect x="0" y="0" width="600" height="100" rx="10" fill="url(#layer1)" stroke="#4caf50" stroke-width="3"/>
+    <text x="300" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2e7d32">Level 1: Information Processing / 信息处理层</text>
+    <text x="300" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#333">• Data input/output • Pattern recognition • Algorithm execution</text>
+    <text x="300" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">All AI systems achieve this / 所有AI系统都能达到</text>
+  </g>
+  
+  <!-- Layer 2: Integration -->
+  <g transform="translate(100, 200)">
+    <rect x="0" y="0" width="600" height="100" rx="10" fill="url(#layer2)" stroke="#ff9800" stroke-width="3"/>
+    <text x="300" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#e65100">Level 2: Information Integration / 信息整合层</text>
+    <text x="300" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#333">• Global workspace • Cross-modal binding • Unified representation</text>
+    <text x="300" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">Advanced AI & simple organisms / 高级AI和简单生物</text>
+  </g>
+  
+  <!-- Layer 3: Experience -->
+  <g transform="translate(100, 320)">
+    <rect x="0" y="0" width="600" height="120" rx="10" fill="url(#layer3)" stroke="#e91e63" stroke-width="3"/>
+    <text x="300" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#c2185b">Level 3: Subjective Experience / 主观体验层</text>
+    <text x="300" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#333">• Qualia • Self-model • Phenomenal consciousness</text>
+    <text x="300" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">Biological brains (verified) / 生物大脑（已证实）</text>
+    <text x="300" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#d32f2f" font-style="italic">AI systems: Unknown / AI系统：未知 ⚠</text>
+  </g>
+  
+  <!-- Hard Problem indicator -->
+  <g transform="translate(720, 350)">
+    <circle cx="0" cy="0" r="30" fill="#d32f2f" opacity="0.9"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">?</text>
+  </g>
+  
+  <text x="720" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#d32f2f">The Hard Problem</text>
+  
+  <!-- Arrow -->
+  <path d="M 400,180 L 400,200" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 400,300 L 400,320" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <text x="400" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">
+    Figure 12.1: Three proposed levels of consciousness. The transition from Level 2 to 3 
+  </text>
+  <text x="400" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">
+    represents the "Hard Problem"—whether AI systems can have subjective experiences.
+  </text>
+  <text x="400" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">
+    从第2层到第3层的过渡代表"困难问题"——AI系统是否能有主观体验。
+  </text>
+</svg>

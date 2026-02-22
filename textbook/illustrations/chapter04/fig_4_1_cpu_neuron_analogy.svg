@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cpuGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a237e"/>
+      <stop offset="100%" style="stop-color:#0d1642"/>
+    </linearGradient>
+    <linearGradient id="neuronGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c62828"/>
+      <stop offset="100%" style="stop-color:#8e0000"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f5f5"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333">
+    CPU-Neuron Analogy / CPU-神经元类比
+  </text>
+  
+  <!-- CPU Side (Left) -->
+  <g transform="translate(50, 80)">
+    <rect x="0" y="0" width="320" height="480" rx="10" fill="url(#cpuGrad)" filter="url(#glow)"/>
+    <text x="160" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">
+      CPU Architecture / CPU架构
+    </text>
+    
+    <!-- Registers -->
+    <rect x="30" y="60" width="260" height="50" rx="5" fill="#3949ab"/>
+    <text x="160" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Registers / 寄存器</text>
+    
+    <!-- ALU -->
+    <rect x="30" y="130" width="260" height="80" rx="5" fill="#5e35b1"/>
+    <text x="160" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">ALU / 运算单元</text>
+    
+    <!-- Control Unit -->
+    <rect x="30" y="230" width="260" height="60" rx="5" fill="#7e57c2"/>
+    <text x="160" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Control Unit / 控制单元</text>
+    
+    <!-- Cache -->
+    <rect x="30" y="310" width="260" height="50" rx="5" fill="#9575cd"/>
+    <text x="160" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Cache / 缓存</text>
+    
+    <!-- Clock -->
+    <circle cx="160" cy="420" r="40" fill="#ff5722"/>
+    <text x="160" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Clock</text>
+  </g>
+  
+  <!-- Connection Arrows -->
+  <g transform="translate(380, 250)">
+    <path d="M 0,0 L 40,0" stroke="#666" stroke-width="3" marker-end="url(#arrowhead)"/>
+    <path d="M 40,50 L 0,50" stroke="#666" stroke-width="3" marker-end="url(#arrowhead)"/>
+    <text x="20" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">analogous to</text>
+  </g>
+  
+  <!-- Neuron Side (Right) -->
+  <g transform="translate(430, 80)">
+    <rect x="0" y="0" width="320" height="480" rx="10" fill="url(#neuronGrad)" filter="url(#glow)"/>
+    <text x="160" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">
+      Neuron / 神经元
+    </text>
+    
+    <!-- Dendrites -->
+    <path d="M 30,85 Q 10,60 5,40 M 30,85 Q 25,50 20,30 M 30,85 Q 40,55 45,35" 
+          stroke="#ff8a80" stroke-width="4" fill="none"/>
+    <text x="80" y="90" font-family="Arial, sans-serif" font-size="14" fill="white">Dendrites / 树突</text>
+    
+    <!-- Soma -->
+    <ellipse cx="160" cy="170" rx="80" ry="50" fill="#ff5252"/>
+    <text x="160" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Soma / 胞体</text>
+    
+    <!-- Axon Hillock -->
+    <rect x="130" y="230" width="60" height="40" rx="5" fill="#ff1744"/>
+    <text x="160" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Axon Hillock</text>
+    
+    <!-- Axon -->
+    <rect x="150" y="280" width="20" height="120" fill="#d50000"/>
+    <text x="200" y="340" font-family="Arial, sans-serif" font-size="14" fill="white">Axon / 轴突</text>
+    
+    <!-- Synaptic Terminals -->
+    <circle cx="140" cy="420" r="15" fill="#ff1744"/>
+    <circle cx="160" cy="430" r="15" fill="#ff1744"/>
+    <circle cx="180" cy="420" r="15" fill="#ff1744"/>
+    <text x="160" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Synapses / 突触</text>
+  </g>
+  
+  <!-- Legend -->
+  <g transform="translate(50, 580)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" fill="#666">Figure 4.1: The CPU-Neuron analogy maps computational components to neural structures.</text>
+  </g>
+</svg>

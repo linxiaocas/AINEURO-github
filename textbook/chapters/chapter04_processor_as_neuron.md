@@ -22,6 +22,10 @@ By the end of this chapter, you will be able to:
 
 ### 4.1.1 CPU as Neural Cell / CPU作为神经细胞
 
+![CPU-Neuron Analogy](../illustrations/chapter04/fig_4_1_cpu_neuron_analogy.svg)
+
+*Figure 4.1: The CPU-Neuron analogy maps computational components to neural structures.*
+
 The **Central Processing Unit (CPU)** can be understood as an artificial neuron—receiving inputs, processing them, and producing outputs:
 
 **中央处理器（CPU）**可以被理解为一个人工神经元——接收输入、处理它们并产生输出：
@@ -41,22 +45,9 @@ The **Central Processing Unit (CPU)** can be understood as an artificial neuron�
 
 **The Fetch-Decode-Execute Cycle / 取指-译码-执行周期**:
 
-```
-┌─────────────────────────────────────────────────────┐
-│           Instruction Cycle / 指令周期               │
-│                                                     │
-│   ┌─────────┐    ┌─────────┐    ┌─────────┐        │
-│   │  FETCH  │ →  │ DECODE  │ →  │ EXECUTE │        │
-│   │  取指   │    │  译码   │    │  执行   │        │
-│   └────┬────┘    └────┬────┘    └────┬────┘        │
-│        │              │              │              │
-│        ▼              ▼              ▼              │
-│   [PC] → [Memory] → [IR] → [Control] → [ALU]       │
-│                                                     │
-│   PC: Program Counter / 程序计数器                  │
-│   IR: Instruction Register / 指令寄存器             │
-└─────────────────────────────────────────────────────┘
-```
+![CPU Instruction Execution Cycle](../illustrations/chapter04/fig_4_2_instruction_cycle.svg)
+
+*Figure 4.2: The instruction execution cycle parallels neural information processing stages.*
 
 **Neural Analog / 神经类比**:
 
@@ -64,26 +55,13 @@ This cycle parallels neural information processing:
 
 这个周期类似于神经信息处理：
 
-```
-Neural Processing / 神经处理:
-
-1. Dendritic Input / 树突输入
-   ↓
-2. Synaptic Integration / 突触整合
-   ↓  
-3. Threshold Decision / 阈值决策
-   ↓
-4. Action Potential Generation / 动作电位产生
-   ↓
-5. Axonal Transmission / 轴突传输
-
-Compare to CPU / 与CPU比较:
-1. Fetch instruction / 取指令
-2. Decode operation / 译码操作
-3. Execute computation / 执行计算
-4. Write result / 写入结果
-5. Update PC / 更新程序计数器
-```
+| Stage / 阶段 | CPU Operation / CPU操作 | Neural Process / 神经过程 |
+|-------------|------------------------|--------------------------|
+| 1 | Fetch instruction / 取指令 | Dendritic Input / 树突输入 |
+| 2 | Decode operation / 译码操作 | Synaptic Integration / 突触整合 |
+| 3 | Execute computation / 执行计算 | Threshold Decision / 阈值决策 |
+| 4 | Write result / 写入结果 | Action Potential / 动作电位 |
+| 5 | Update PC / 更新PC | Axonal Transmission / 轴突传输 |
 
 ### 4.1.3 Arithmetic Logic Unit (ALU) / 算术逻辑单元
 

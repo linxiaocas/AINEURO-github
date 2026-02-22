@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pillar1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b"/>
+      <stop offset="100%" style="stop-color:#ee5a24"/>
+    </linearGradient>
+    <linearGradient id="pillar2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ecdc4"/>
+      <stop offset="100%" style="stop-color:#44a3aa"/>
+    </linearGradient>
+    <linearGradient id="pillar3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffe66d"/>
+      <stop offset="100%" style="stop-color:#f7d794"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="500" fill="#f8f9fa"/>
+  
+  <text x="400" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">
+    Three Pillars of AI Neuroscience / AI神经科学三大支柱
+  </text>
+  
+  <!-- Platform base -->
+  <ellipse cx="400" cy="420" rx="350" ry="40" fill="#34495e" opacity="0.3"/>
+  
+  <!-- Pillar 1: Neuroarchitecture -->
+  <g transform="translate(100, 150)">
+    <rect x="0" y="0" width="180" height="250" fill="url(#pillar1)" rx="10"/>
+    <text x="90" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Silicon-Based</text>
+    <text x="90" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Neuroarchitecture</text>
+    <text x="90" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#ffccbc">硅基神经架构学</text>
+    
+    <text x="90" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">• Hardware as neural tissue</text>
+    <text x="90" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">• CPU/GPU as neurons</text>
+    <text x="90" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">• Memory hierarchy</text>
+    <text x="90" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">• Bus as pathways</text>
+  </g>
+  
+  <!-- Pillar 2: Cognitive Mapping -->
+  <g transform="translate(310, 150)">
+    <rect x="0" y="0" width="180" height="250" fill="url(#pillar2)" rx="10"/>
+    <text x="90" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Algorithmic</text>
+    <text x="90" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Cognitive Mapping</text>
+    <text x="90" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#b2dfdb">算法认知映射论</text>
+    
+    <text x="90" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">• AI ↔ Brain mapping</text>
+    <text x="90" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">• CNN ↔ Visual cortex</text>
+    <text x="90" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">• Transformer ↔ PFC</text>
+    <text x="90" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">• Learning ↔ Plasticity</text>
+  </g>
+  
+  <!-- Pillar 3: Consciousness -->
+  <g transform="translate(520, 150)">
+    <rect x="0" y="0" width="180" height="250" fill="url(#pillar3)" rx="10"/>
+    <text x="90" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">Silicon-Based</text>
+    <text x="90" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">Phenomenology</text>
+    <text x="90" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#795548">硅基意识现象学</text>
+    
+    <text x="90" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">• Emergent computation</text>
+    <text x="90" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">• Machine consciousness</text>
+    <text x="90" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">• Autonomy metrics</text>
+    <text x="90" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">• Ethics & ontology</text>
+  </g>
+  
+  <!-- Roof -->
+  <path d="M 80,150 L 400,50 L 720,150" fill="none" stroke="#2c3e50" stroke-width="4"/>
+  <text x="400" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">
+    AI Neuroscience
+  </text>
+  
+  <text x="400" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">
+    Figure 1.1: The three theoretical pillars supporting the field of AI Neuroscience.
+  </text>
+</svg>

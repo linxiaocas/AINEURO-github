@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="stage1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e3f2fd"/>
+      <stop offset="100%" style="stop-color:#bbdefb"/>
+    </linearGradient>
+    <linearGradient id="stage2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fff3e0"/>
+      <stop offset="100%" style="stop-color:#ffe0b2"/>
+    </linearGradient>
+    <linearGradient id="stage3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e8f5e9"/>
+      <stop offset="100%" style="stop-color:#c8e6c9"/>
+    </linearGradient>
+    <linearGradient id="stage4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fce4ec"/>
+      <stop offset="100%" style="stop-color:#f8bbd9"/>
+    </linearGradient>
+    <linearGradient id="stage5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f3e5f5"/>
+      <stop offset="100%" style="stop-color:#e1bee7"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="900" height="500" fill="#fafafa"/>
+  
+  <text x="450" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#333">
+    5-Stage Pipeline Execution / 5级流水线执行
+  </text>
+  
+  <!-- Pipeline stages -->
+  <g transform="translate(50, 70)">
+    <!-- Stage headers -->
+    <rect x="0" y="0" width="150" height="40" fill="url(#stage1)" stroke="#333" stroke-width="2"/>
+    <text x="75" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold">IF</text>
+    
+    <rect x="160" y="0" width="150" height="40" fill="url(#stage2)" stroke="#333" stroke-width="2"/>
+    <text x="235" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold">ID</text>
+    
+    <rect x="320" y="0" width="150" height="40" fill="url(#stage3)" stroke="#333" stroke-width="2"/>
+    <text x="395" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold">EX</text>
+    
+    <rect x="480" y="0" width="150" height="40" fill="url(#stage4)" stroke="#333" stroke-width="2"/>
+    <text x="555" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold">MEM</text>
+    
+    <rect x="640" y="0" width="150" height="40" fill="url(#stage5)" stroke="#333" stroke-width="2"/>
+    <text x="715" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold">WB</text>
+    
+    <!-- Stage labels -->
+    <text x="75" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">Instruction Fetch</text>
+    <text x="235" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">Decode</text>
+    <text x="395" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">Execute</text>
+    <text x="555" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">Memory</text>
+    <text x="715" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">Write Back</text>
+    
+    <!-- Clock cycles -->
+    <text x="0" y="90" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">Clock 1:</text>
+    <rect x="5" y="100" width="140" height="30" fill="#2196f3" opacity="0.7"/>
+    <text x="75" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Instr 1</text>
+    
+    <text x="0" y="145" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">Clock 2:</text>
+    <rect x="165" y="100" width="140" height="30" fill="#ff9800" opacity="0.7"/>
+    <text x="235" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Instr 1</text>
+    <rect x="5" y="155" width="140" height="30" fill="#2196f3" opacity="0.7"/>
+    <text x="75" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Instr 2</text>
+    
+    <text x="0" y="200" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">Clock 3:</text>
+    <rect x="325" y="100" width="140" height="30" fill="#4caf50" opacity="0.7"/>
+    <text x="395" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Instr 1</text>
+    <rect x="165" y="155" width="140" height="30" fill="#ff9800" opacity="0.7"/>
+    <text x="235" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Instr 2</text>
+    <rect x="5" y="210" width="140" height="30" fill="#2196f3" opacity="0.7"/>
+    <text x="75" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Instr 3</text>
+    
+    <text x="0" y="255" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">Clock 4:</text>
+    <rect x="485" y="100" width="140" height="30" fill="#e91e63" opacity="0.7"/>
+    <text x="555" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Instr 1</text>
+    <rect x="325" y="155" width="140" height="30" fill="#4caf50" opacity="0.7"/>
+    <text x="395" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Instr 2</text>
+    <rect x="165" y="210" width="140" height="30" fill="#ff9800" opacity="0.7"/>
+    <text x="235" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Instr 3</text>
+    <rect x="5" y="265" width="140" height="30" fill="#2196f3" opacity="0.7"/>
+    <text x="75" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Instr 4</text>
+  </g>
+  
+  <text x="450" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#666">
+    Figure 4.3: Multiple instructions execute simultaneously in different pipeline stages,
+  </text>
+  <text x="450" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#666">
+    analogous to neural population codes where different neurons process different features.
+  </text>
+</svg>

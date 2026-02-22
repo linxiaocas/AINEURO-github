@@ -22,6 +22,10 @@ By the end of this chapter, you will be able to:
 
 ### 8.1.1 The Visual Pathway Hierarchy / 视觉通路层次
 
+![CNN Architecture vs Visual Cortex](../illustrations/chapter08/fig_8_1_cnn_architecture.svg)
+
+*Figure 8.1: CNN layers map to hierarchical visual processing areas in the brain.*
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                    VISUAL PROCESSING HIERARCHY / 视觉处理层次                │
