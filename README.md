@@ -4,6 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Documentation](https://img.shields.io/badge/docs-latest-blue.svg)](./docs)
 [![Papers](https://img.shields.io/badge/papers-100%2B-green.svg)](./theses)
+[![Journals](https://img.shields.io/badge/journals-4%20titles-orange.svg)](./journal)
 [![Stars](https://img.shields.io/github/stars/linxiaocas/AINEURO-github?style=social)](https://github.com/linxiaocas/AINEURO-github)
 
 
@@ -120,6 +121,26 @@ AINEURO publishes two flagship journals covering silicon-based intelligence rese
 - **Format**: IEEE standard, peer-reviewed
 - **Scope**: Hardware design, system architecture, standards, safety
 - **[Read Current Issue / 阅读最新期刊 →](./journal/IEEE-TSBI/vol1/num1)**
+
+---
+
+### 🔥 OpenClaw Journal Series / OpenClaw期刊系列
+
+#### **Journal of AI Systems & Architecture / AI系统与架构期刊**
+**Focus**: Multi-agent systems, distributed architecture, performance optimization / 多代理系统、分布式架构、性能优化
+- **Vol 1** (Feb 2026): OpenClaw Framework / OpenClaw框架 (16 papers)
+- **Vol 2** (Mar 2026): System Optimization / 系统优化 (6 papers)
+- **Vol 3** (Apr 2026): AI Security / AI安全 (6 papers)
+- **Vol 4** (May 2026): Edge AI / 边缘AI (6 papers)
+- **[Read All Volumes / 阅读全部卷期 →](./journal/journal1_ai_systems/)**
+
+#### **International Journal of Human-AI Collaboration / 人机协作国际期刊**
+**Focus**: Human-computer interaction, AI ethics, partnership dynamics / 人机交互、AI伦理、伙伴关系
+- **Vol 1** (Feb 2026): OpenClaw Collaboration / OpenClaw协作 (14 papers)
+- **Vol 2** (Mar 2026): HCI Design / 人机交互设计 (6 papers)
+- **Vol 3** (Apr 2026): Ethics & Society / 伦理与社会 (6 papers)
+- **Vol 4** (May 2026): Applications / 应用实践 (6 papers)
+- **[Read All Volumes / 阅读全部卷期 →](./journal/journal2_human_ai/)**
 
 ---
 
