@@ -241,6 +241,33 @@ AINEURO规划了**100篇学术论文**，覆盖10个研究方向：
 
 ---
 
+## 🎮 Demo Hub / 演示中心
+
+### 🚀 Interactive Demos / 交互式演示
+
+**[🎮 Explore Demo Hub / 探索演示中心 →](./demo-hub/)**
+
+一站式体验最新AI技术框架的演示：
+
+| Demo / 演示 | Tech Stack / 技术栈 | Description / 描述 |
+|-------------|---------------------|---------------------|
+| **AI PC** | Tauri + Vue + Rust | 跨平台AI桌面应用框架 |
+| **AI Gaming** | Blaze AI Engine | 游戏AI行为引擎 |
+| **AI Streaming** | Modular SDK | 低延迟AI视频直播 |
+| **AI World Model** | Encoder-Predictor-Decoder | 物理世界模拟与预测 |
+| **Autonomous Driving** | Apollo Architecture | 自动驾驶分层架构 |
+| **Humanoid Robot** | ROS + EtherCAT | 人形机器人控制 |
+| **OpenClaw Agent** | Gateway + ACP | 多平台智能体框架 |
+| **Brain-Computer Interface** | Signal + DL | 脑机接口信号解码 |
+
+**Quick Launch / 快速启动**：
+```bash
+cd demo-hub
+python demo_launcher.py --all  # 启动所有演示
+```
+
+---
+
 ## 🚀 Quick Start / 快速开始
 
 ### 📥 Clone Repository / 克隆仓库
