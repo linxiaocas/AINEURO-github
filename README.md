@@ -179,7 +179,32 @@ This special issue presents a comprehensive collection of 15 papers on **ClawdCh
 
 ---
 
-## 📝 Publications / 论文体系
+## 📝 Technical Blog / 技术博客
+
+### 🔥 Latest Articles / 最新文章
+
+| Article / 文章 | Category / 分类 | Date / 日期 | Link |
+|---------------|----------------|------------|------|
+| **ClawdChip Architecture Deep Dive** / 架构深度解析 | Architecture | 2026-02-22 | [Read / 阅读](./blog/2026/clawdchip-architecture-deep-dive.md) |
+| **How AI Designs Chips** / AI如何设计芯片 | AI Design | 2026-02-22 | [Read / 阅读](./blog/2026/how-ai-designs-chips.md) |
+| **Getting Started with ClawdChip** / ClawdChip编程入门 | Tutorial | 2026-02-22 | [Read / 阅读](./blog/tutorials/getting-started-with-clawdchip.md) |
+| **Von Neumann to Agent-First** / 范式转换 | Insights | 2026-02-22 | [Read / 阅读](./blog/insights/von-neumann-to-agent-first.md) |
+
+**[📚 View All Articles / 查看全部文章 →](./blog/)**
+
+---
+
+## 📖 Technical Reference / 技术参考
+
+### 🔧 ClawdChip CPU 技术参考手册
+
+**[📘 完整技术规范文档](./clawdchip-cpu/docs/technical-reference-manual.md)**
+
+包含8个技术章节和3个附录：架构概述、处理器核心、内存子系统、Agent执行引擎、DiT硬件加速器、中断处理、电源管理、调试接口，以及指令集、寄存器、内存映射等完整技术细节。
+
+---
+
+## 📚 Publications / 论文体系
 
 AINEURO plans **100 academic papers** covering 10 research directions:
 
