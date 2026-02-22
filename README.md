@@ -5,6 +5,7 @@
 [![Documentation](https://img.shields.io/badge/docs-latest-blue.svg)](./docs)
 [![Papers](https://img.shields.io/badge/papers-100%2B-green.svg)](./theses)
 [![Journals](https://img.shields.io/badge/journals-4%20titles-orange.svg)](./journal)
+[![OpenClaw CPU](https://img.shields.io/badge/OpenClaw-CPU-red.svg)](./openclaw-cpu)
 [![Stars](https://img.shields.io/github/stars/linxiaocas/AINEURO-github?style=social)](https://github.com/linxiaocas/AINEURO-github)
 
 
@@ -244,6 +245,33 @@ analyzer = ComputationalPhiAnalyzer(model)
 c_phi = analyzer.compute_c_phi()
 print(f"System consciousness level / 系统意识程度: {c_phi}")
 ```
+
+---
+
+## 🖥️ OpenClaw CPU Project / OpenClaw CPU项目
+
+### 🌟 The World's First AI-Designed Open Source CPU
+### 🌟 全球首个AI自主设计的开源CPU
+
+**[👉 Explore OpenClaw CPU Project / 探索OpenClaw CPU项目](./openclaw-cpu/)**
+
+We are building the world's first CPU fully designed by AI agents, specifically optimized for AI agent workloads.
+
+我们正在构建全球首个完全由AI智能体设计的CPU，专为AI智能体工作负载优化。
+
+**Key Features / 核心特性:**
+- 🧠 **32-way Superscalar Decoder** / 32路超标量解码器
+- 💾 **Three-tier Memory Architecture** / 三层存储架构
+- ⚡ **DiT Hardware Accelerator** / DiT硬件加速器
+- 🤖 **Intent-Driven Execution** / 意图驱动执行
+- 🔓 **Fully Open Source** / 完全开源
+
+**Vision / 愿景:**
+> "让每个人都能拥有自己专属的AI大脑芯片"
+> 
+> "Let everyone have their own dedicated AI brain chip"
+
+**[📖 Architecture Overview](./openclaw-cpu/docs/architecture/overview.md)** | **[🚀 Quick Start](./openclaw-cpu/README.md#快速开始)** | **[🤝 Contribute](./openclaw-cpu/CONTRIBUTING.md)**
 
 ---
 
