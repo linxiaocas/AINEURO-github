@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="850" height="1100" viewBox="0 0 850 1100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A1628"/>
+      <stop offset="100%" style="stop-color:#050A10"/>
+    </linearGradient>
+    <radialGradient id="node" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00D4FF"/>
+      <stop offset="100%" style="stop-color:#003D52"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="850" height="1100" fill="url(#bg)"/>
+  <g transform="translate(425,350)">
+    <g stroke="#00D4FF" stroke-width="1.5" opacity="0.6">
+      <line x1="-150" y1="-100" x2="0" y2="50"/>
+      <line x1="0" y1="-100" x2="0" y2="50"/>
+      <line x1="150" y1="-100" x2="0" y2="50"/>
+    </g>
+    <circle cx="-150" cy="-100" r="35" fill="url(#node)" filter="url(#glow)"/>
+    <circle cx="0" cy="-100" r="40" fill="url(#node)" filter="url(#glow)"/>
+    <circle cx="150" cy="-100" r="35" fill="url(#node)" filter="url(#glow)"/>
+    <circle cx="0" cy="50" r="55" fill="#FF9500" opacity="0.9"/>
+  </g>
+  <text x="425" y="650" text-anchor="middle" font-family="Helvetica Neue, Arial" font-size="72" font-weight="bold" fill="#FFFFFF" letter-spacing="8">OPENCLAW</text>
+  <line x1="200" y1="680" x2="650" y2="680" stroke="#FF9500" stroke-width="3"/>
+  <text x="425" y="730" text-anchor="middle" font-family="Helvetica Neue, Arial" font-size="22" fill="#CCCCCC">An Open Agent Framework for</text>
+  <text x="425" y="760" text-anchor="middle" font-family="Helvetica Neue, Arial" font-size="22" fill="#CCCCCC">Intelligent System Control</text>
+  <text x="425" y="860" text-anchor="middle" font-family="Helvetica Neue, Arial" font-size="18" font-weight="bold" fill="#FF9500" letter-spacing="4">SPECIAL ISSUE</text>
+  <text x="425" y="900" text-anchor="middle" font-family="Times New Roman" font-size="16" fill="#AAAAAA">IEEE Transactions on Silicon-Based Intelligence</text>
+  <text x="425" y="925" text-anchor="middle" font-family="Times New Roman" font-size="14" fill="#888888">Volume 15, Issue 2 | February 2026</text>
+  <text x="425" y="980" text-anchor="middle" font-family="Helvetica Neue, Arial" font-size="13" fill="#666666">Guest Editors: Lin Xiao · Openclaw, Kimi</text>
+</svg>

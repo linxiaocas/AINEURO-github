@@ -47,6 +47,28 @@ IEEE TSBI publishes archival-quality research on:
 
 ---
 
+## 📚 Special Issue / 特刊
+
+### **OpenClaw: An Open Agent Framework for Intelligent System Control**
+### **OpenClaw：开放式智能系统控制代理框架**
+
+**Published**: February 2026 / 出版时间：2026年2月  
+**Guest Editors**: Lin Xiao, Openclaw, Kimi / 客座编辑：林啸, Openclaw, Kimi  
+**Total Articles**: 15 / 总文章数：15篇
+
+This special issue presents a comprehensive collection of papers on OpenClaw, covering system architecture, human-AI collaboration, and the evolution of human-agent relationships.
+
+本期特刊全面介绍OpenClaw框架，涵盖系统架构、人机协作以及人机关系演进。
+
+| Part / 部分 | Content / 内容 | Articles / 文章数 |
+|-------------|----------------|-------------------|
+| Part I | System Architecture & Implementation / 系统架构与实现 | 8 |
+| Part II | Human-AI Collaboration / 人机协作 | 7 |
+
+[📖 Read Special Issue / 阅读特刊 →](./special-issue-openclaw/SPECIAL_ISSUE_README.md)
+
+---
+
 ## 📚 Current Issue / 最新期刊
 
 ### **Volume 1, Number 1 | February 2026**
