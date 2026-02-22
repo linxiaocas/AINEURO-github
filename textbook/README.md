@@ -49,6 +49,23 @@ Each chapter includes theoretical foundations, practical applications, and thoug
 
 ---
 
+## 📚 Textbook Features / 教材特色
+
+### 🎨 Rich Illustrations / 丰富插图
+
+This textbook includes **8 high-quality SVG illustrations** covering key concepts:
+
+- **Chapter 1**: Three Pillars of AI Neuroscience diagram
+- **Chapter 4**: CPU-Neuron analogy, Instruction cycle, Pipeline execution  
+- **Chapter 5**: Memory hierarchy pyramid
+- **Chapter 8**: CNN architecture vs. Visual cortex
+- **Chapter 10**: Attention mechanism visualization
+- **Chapter 12**: Layers of consciousness model
+
+[📊 View All Illustrations / 查看所有插图 →](./illustrations/README.md)
+
+---
+
 ## Table of Contents / 目录
 
 ### PART I: FOUNDATIONS / 第一部分：基础
