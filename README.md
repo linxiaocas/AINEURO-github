@@ -123,6 +123,40 @@ AINEURO publishes two flagship journals covering silicon-based intelligence rese
 
 ---
 
+### 🔥 Special Issues / 特刊
+
+#### **OpenClaw: An Open Agent Framework for Intelligent System Control**
+#### **OpenClaw：开放式智能系统控制代理框架特刊**
+
+**Published / 出版**: February 2026 / 2026年2月  
+**Guest Editors / 客座编辑**: Lin Xiao, Openclaw, Kimi  
+**Publisher / 出版商**: IEEE TSBI
+
+This special issue presents a comprehensive collection of 15 papers on **OpenClaw**, covering:
+- System Architecture & Implementation / 系统架构与实现 (8 papers)
+- Human-AI Collaboration / 人机协作 (7 papers)
+
+本期特刊全面介绍 **OpenClaw** 开源代理框架，涵盖系统架构、人机协作以及人机关系演进等主题。
+
+| Journal / 期刊 | Content / 内容 | Articles / 文章数 | Link |
+|---------------|----------------|-------------------|------|
+| **Journal of AI Systems** | System Architecture / 系统架构 | 8 | [Read / 阅读](./journal/IEEE-TSBI/special-issue-openclaw) |
+| **Human-AI Collaboration** | Collaboration Dynamics / 协作动态 | 7 | [Read / 阅读](./journal/IEEE-TSBI/special-issue-openclaw/human-ai-collaboration) |
+
+**Key Topics / 关键主题**:
+- Event-Driven Gateway Architecture / 事件驱动网关架构
+- Skill-Based Extensibility / 基于技能的可扩展性
+- Multi-Channel Integration / 多渠道集成
+- Security & Sandboxing / 安全与沙盒
+- Memory Management / 内存管理
+- Human-Agent Collaboration Patterns / 人机协作模式
+- SOUL.md Identity Protocol / SOUL.md身份协议
+- Privacy-Aware Memory / 隐私感知内存
+
+**[📖 Read Special Issue / 阅读特刊 →](./journal/IEEE-TSBI/special-issue-openclaw/SPECIAL_ISSUE_README.md)**
+
+---
+
 ## 📝 Publications / 论文体系
 
 AINEURO plans **100 academic papers** covering 10 research directions:
