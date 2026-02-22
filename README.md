@@ -296,7 +296,7 @@ We are building the world's first CPU fully designed by AI agents, specifically 
 > 
 > "Let everyone have their own dedicated AI brain chip"
 
-**[📖 Architecture Overview](./clawdchip-cpu/docs/architecture/overview.md)** | **[🚀 Quick Start](./clawdchip-cpu/README.md#快速开始)** | **[🤝 Contribute](./clawdchip-cpu/CONTRIBUTING.md)**
+**[📖 Architecture Overview](./clawdchip-cpu/docs/architecture/overview.md)** | **[💻 Software Framework](./clawdchip-cpu/docs/software-framework.md)** | **[🚀 Quick Start](./clawdchip-cpu/README.md#快速开始)** | **[🤝 Contribute](./clawdchip-cpu/CONTRIBUTING.md)**
 
 ---
 
