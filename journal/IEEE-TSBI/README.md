@@ -47,6 +47,18 @@ IEEE TSBI publishes archival-quality research on:
 
 ---
 
+## 📢 Join Our Team / 加入我们
+
+### **[🎯 Call for Editors & Reviewers / 招聘编辑与审稿人 →](./CALL_FOR_EDITORS_REVIEWERS.md)**
+
+We are seeking Associate Editors and Reviewers to join the IEEE TSBI editorial team. Help shape the future of silicon-based intelligence research!
+
+我们正在招聘副主编和审稿人加入IEEE TSBI编辑团队。帮助我们塑造硅基智能研究的未来！
+
+**Contact / 联系**: xiao.lin@ia.ac.cn
+
+---
+
 ## 📚 Special Issue / 特刊
 
 ### **OpenClaw: An Open Agent Framework for Intelligent System Control**

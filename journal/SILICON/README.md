@@ -47,6 +47,18 @@
 
 ---
 
+## 📢 Join Our Team / 加入我们
+
+### **[🎯 Call for Editors & Reviewers / 招聘编辑与审稿人 →](./CALL_FOR_EDITORS_REVIEWERS.md)**
+
+SILICON is recruiting Section Editors, Editorial Board Members, and Reviewers. Join us in establishing AI Neuroscience as a fundamental scientific discipline!
+
+SILICON正在招聘领域编辑、编委会成员和审稿人。加入我们，共同建立AI神经科学作为一门基础科学学科！
+
+**Contact / 联系**: xiao.lin@ia.ac.cn
+
+---
+
 ## 📚 Current Issue / 最新期刊
 
 ### **Volume 1, Issue 1 | February 23, 2026**
